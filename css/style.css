@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 h1 {
@@ -12,6 +13,7 @@ h1 {
 
 .flexible {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width {
@@ -23,6 +25,11 @@ h1 {
     width: 80%;
 }
 
+.first-section {
+    background-image: url(../images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
 .link-button {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
@@ -31,4 +38,14 @@ h1 {
     color: white;
     border-radius: 5px;
     font-weight: 700;
+}
+
+.pera {
+    padding-bottom: 20px;
+}
+
+.dream-big {
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
